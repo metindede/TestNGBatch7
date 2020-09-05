@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.syntax.class2.HardAssertionExample"/>
+      <class name="com.syntax.class2.Depencty"/>
+      <class name="com.syntax.class2.SoftAssertionExample1"/>
+      <class name="com.syntax.class2.SoftAssertionExample"/>
+      <class name="com.syntax.class2.IssueWithoutAssert"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

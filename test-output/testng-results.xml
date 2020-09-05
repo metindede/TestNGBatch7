@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48384" started-at="2020-09-01T19:54:08 EDT" finished-at="2020-09-01T19:54:56 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="48384" started-at="2020-09-01T19:54:08 EDT" finished-at="2020-09-01T19:54:56 EDT">
+      <class name="com.syntax.class2.SoftAssertionExample">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class2.SoftAssertionExample@49fc609f]" name="openBrowser" is-config="true" duration-ms="2984" started-at="2020-09-01T19:54:42 EDT" finished-at="2020-09-01T19:54:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="invalidLoginError()[pri:0, instance:com.syntax.class2.SoftAssertionExample@49fc609f]" name="invalidLoginError" duration-ms="7273" started-at="2020-09-01T19:54:45 EDT" finished-at="2020-09-01T19:54:53 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Invalid credential] but found [Invalid credentials],
+expected [Password cannot be] but found [Password cannot be empty]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Invalid credential] but found [Invalid credentials],
+expected [Password cannot be] but found [Password cannot be empty]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.syntax.class2.SoftAssertionExample.invalidLoginError(SoftAssertionExample.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginError -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class2.SoftAssertionExample@49fc609f]" name="closeBrowser" is-config="true" duration-ms="156" started-at="2020-09-01T19:54:53 EDT" finished-at="2020-09-01T19:54:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.syntax.class2.SoftAssertionExample -->
+      <class name="com.syntax.class2.SoftAssertionExample1">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class2.SoftAssertionExample1@3d99d22e]" name="openBrowser" is-config="true" duration-ms="2904" started-at="2020-09-01T19:54:32 EDT" finished-at="2020-09-01T19:54:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="invalidLoginError()[pri:0, instance:com.syntax.class2.SoftAssertionExample1@3d99d22e]" name="invalidLoginError" duration-ms="7399" started-at="2020-09-01T19:54:35 EDT" finished-at="2020-09-01T19:54:42 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Invalid credential] but found [Invalid credentials],
+expected [Password cannot be] but found [Password cannot be empty]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Invalid credential] but found [Invalid credentials],
+expected [Password cannot be] but found [Password cannot be empty]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.syntax.class2.SoftAssertionExample1.invalidLoginError(SoftAssertionExample1.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginError -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class2.SoftAssertionExample1@3d99d22e]" name="closeBrowser" is-config="true" duration-ms="139" started-at="2020-09-01T19:54:42 EDT" finished-at="2020-09-01T19:54:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.syntax.class2.SoftAssertionExample1 -->
+      <class name="com.syntax.class2.HardAssertionExample">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class2.HardAssertionExample@3cef309d]" name="openBrowser" is-config="true" duration-ms="8562" started-at="2020-09-01T19:54:08 EDT" finished-at="2020-09-01T19:54:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="loginFormText()[pri:0, instance:com.syntax.class2.HardAssertionExample@3cef309d]" name="loginFormText" duration-ms="93" started-at="2020-09-01T19:54:16 EDT" finished-at="2020-09-01T19:54:16 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Text on the Login panel is not matched expected [LOGIN Panels] but found [LOGIN Panel]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Text on the Login panel is not matched expected [LOGIN Panels] but found [LOGIN Panel]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.syntax.class2.HardAssertionExample.loginFormText(HardAssertionExample.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFormText -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class2.HardAssertionExample@3cef309d]" name="closeBrowser" is-config="true" duration-ms="162" started-at="2020-09-01T19:54:16 EDT" finished-at="2020-09-01T19:54:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class2.HardAssertionExample@3cef309d]" name="openBrowser" is-config="true" duration-ms="2861" started-at="2020-09-01T19:54:16 EDT" finished-at="2020-09-01T19:54:19 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="logoValidation()[pri:0, instance:com.syntax.class2.HardAssertionExample@3cef309d]" name="logoValidation" duration-ms="88" started-at="2020-09-01T19:54:19 EDT" finished-at="2020-09-01T19:54:19 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class2.HardAssertionExample@3cef309d]" name="closeBrowser" is-config="true" duration-ms="127" started-at="2020-09-01T19:54:19 EDT" finished-at="2020-09-01T19:54:19 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class2.HardAssertionExample@3cef309d]" name="openBrowser" is-config="true" duration-ms="3112" started-at="2020-09-01T19:54:19 EDT" finished-at="2020-09-01T19:54:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="titleValidation()[pri:0, instance:com.syntax.class2.HardAssertionExample@3cef309d]" name="titleValidation" duration-ms="34" started-at="2020-09-01T19:54:23 EDT" finished-at="2020-09-01T19:54:23 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Human Management Systems] but found [Human Management System]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Human Management Systems] but found [Human Management System]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.syntax.class2.HardAssertionExample.titleValidation(HardAssertionExample.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class2.HardAssertionExample@3cef309d]" name="closeBrowser" is-config="true" duration-ms="147" started-at="2020-09-01T19:54:23 EDT" finished-at="2020-09-01T19:54:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.syntax.class2.HardAssertionExample -->
+      <class name="com.syntax.class2.Depencty">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class2.Depencty@32709393]" name="openBrowser" is-config="true" duration-ms="3147" started-at="2020-09-01T19:54:23 EDT" finished-at="2020-09-01T19:54:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.syntax.class2.Depencty@32709393]" name="validLogin" duration-ms="2249" started-at="2020-09-01T19:54:26 EDT" finished-at="2020-09-01T19:54:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class2.Depencty@32709393]" name="closeBrowser" is-config="true" duration-ms="147" started-at="2020-09-01T19:54:28 EDT" finished-at="2020-09-01T19:54:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class2.Depencty@32709393]" name="openBrowser" is-config="true" duration-ms="3101" started-at="2020-09-01T19:54:28 EDT" finished-at="2020-09-01T19:54:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:com.syntax.class2.Depencty@32709393]" name="invalidLogin" duration-ms="272" started-at="2020-09-01T19:54:31 EDT" depends-on-methods="com.syntax.class2.Depencty.validLogin" finished-at="2020-09-01T19:54:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class2.Depencty@32709393]" name="closeBrowser" is-config="true" duration-ms="144" started-at="2020-09-01T19:54:32 EDT" finished-at="2020-09-01T19:54:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.syntax.class2.Depencty -->
+      <class name="com.syntax.class2.IssueWithoutAssert">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class2.IssueWithoutAssert@cd2dae5]" name="openBrowser" is-config="true" duration-ms="3041" started-at="2020-09-01T19:54:53 EDT" finished-at="2020-09-01T19:54:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="titleValidation()[pri:0, instance:com.syntax.class2.IssueWithoutAssert@cd2dae5]" name="titleValidation" duration-ms="11" started-at="2020-09-01T19:54:56 EDT" finished-at="2020-09-01T19:54:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class2.IssueWithoutAssert@cd2dae5]" name="closeBrowser" is-config="true" duration-ms="143" started-at="2020-09-01T19:54:56 EDT" finished-at="2020-09-01T19:54:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.syntax.class2.IssueWithoutAssert -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
